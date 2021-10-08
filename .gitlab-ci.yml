@@ -1,0 +1,4 @@
+include:
+  project: tricolor/cicd
+  ref: master
+  file: .gitlab-ci-esb.yml

@@ -1,0 +1,15 @@
+prettyPrint: true
+cacheTTL: 0
+openAPI:
+  info:
+    title: informing_2
+    contact:
+      email: mamaev@iflex.ru
+    description: API для рассылки сообщений
+  tags:
+    - name: mytricolor
+  servers:
+    - url: http://192.168.102.53:8081/informing_2
+    - url: http://192.168.113.223:8081/informing_2
+    - url: http://localhost:8081/informing_2
+
